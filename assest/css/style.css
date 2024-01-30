@@ -1,0 +1,50 @@
+#header{
+    position: fixed;
+}
+
+
+#body{
+    margin-left: 10vh;
+    margin-right: 10vh;
+    margin-top: 3vh;
+    margin-bottom: 1vh;
+}
+
+#nav{
+  display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: "Gabriola";
+
+}
+
+.headUl{
+    display: flex;
+    list-style-type: none;
+
+
+}
+
+#headerHr{
+   opacity: 30%;
+    margin-top: -3vh;
+
+}
+
+.hLi{
+    margin-left: 3vh;
+    /*margin-right: 2vh;*/
+
+}
+
+#homediv1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#homeimg{
+   width: 40vw;
+}
+
+#homediv2{
+    margin: 10vh;
+    padding: 5vh;
+}
