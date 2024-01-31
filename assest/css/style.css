@@ -116,12 +116,17 @@
     margin: 20px;
     transition: width 1s;
 }
+svg{
+    transition: width 1s;
+}
+
 svg:hover{
     /*width: 20px;*/
     background-color: #f8f8f8;
     border-radius: 20px;
     cursor: pointer;
     box-shadow: 5px 2px 2px black;
+    width: 60px;
 
 }
 
@@ -284,20 +289,28 @@ svg{
 
 #cardContact{
     margin: 30px;
-    padding: 30px;
+    padding: 20px;
+    border:2px solid lightblue;
+    border-radius: 25px;
+    background-color: lightblue;
+    justify-content: center;
+}
+#cardContact:hover{
+
 }
 
 .input{
     padding: 20px;
     margin: 20px;
-    width: 300px;
+    width: 370px;
     height: 3px;
     border-radius: 20px;
+    outline: none;
 }
 .textArea{
     padding: 20px;
     margin: 20px;
-    width: 300px;
+    width: 370px;
     height: 100px;
     border-radius: 20px;
 }
@@ -311,7 +324,13 @@ svg{
     width: 90px;
     height: 40px;
     cursor: pointer;
-border: white;
+    border: white;
+    transition: width 1s;
+}
+
+#btnSend:hover{
+    width: 100px;
+    box-shadow: 4px 4px darkslategrey;
 }
 
 #footer{
