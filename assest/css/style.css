@@ -82,7 +82,7 @@ svg{
 }
 
 #about2{
-    width: 65vh;
+    width: 70vh;
     margin:20px
 }
 #divAbout{
@@ -91,5 +91,80 @@ svg{
 }
 
 #divtext{
-    margin: 20px;
+    margin: 40px;
+    font-family: "Comic Sans MS";
+
+}
+
+#card{
+    border-radius: 20px;
+    border: #0404c7 solid 2px;
+    margin-left: 50px;
+    margin-right: 25px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 0.1fr 0.5fr 3fr;
+
+}
+
+.aboutLi{
+    margin: 10px;
+    list-style-type: none;
+    font-family: "Comic Sans MS";
+}
+#btnCV{
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    position: relative;
+    left: 500px;
+    cursor: pointer;
+    width: 120px;
+    height: 30px;
+}
+
+.head{
+    text-align: center ;
+    font-size: 45px ;
+
+}
+#edudivMain{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.edudivsub{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+
+
+}
+
+.divEdulast{
+    width: 250px;
+    height: 100px;
+    border: blue solid 2px;
+    margin:50px;
+    border-radius: 20px;
+    padding: 26px;
+    text-align: center;
+    font-family: "Comic Sans MS";
+}
+#eduImg{
+    justify-content: center;
+    /*width: 100px;*/
+}
+#eduImgI{
+    width: 400px;
+
+}
+#skills{
+    font-family: "Comic Sans MS";
+    text-align: center;
+
+}
+#skilmaindiv{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
