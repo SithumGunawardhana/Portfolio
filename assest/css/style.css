@@ -1,13 +1,18 @@
 #header{
     position: fixed;
+    background-color: white;
+    top: 0;
 }
 
 
 #body{
-    margin-left: 10vh;
+    margin-left: 13vh;
     margin-right: 10vh;
     margin-top: 3vh;
     margin-bottom: 1vh;
+    /*margin: 5;*/
+
+
 }
 
 #nav{
@@ -22,6 +27,7 @@
     list-style-type: none;
 
 
+
 }
 
 #headerHr{
@@ -32,8 +38,21 @@
 
 .hLi{
     margin-left: 3vh;
+    cursor: pointer ;
+
+
     /*margin-right: 2vh;*/
 
+}
+.hLi>a{
+    text-decoration: none;
+    color: black;
+}
+.hLi>a:hover{
+    text-decoration: #0404c7;
+    color: blue;
+
+    box-shadow: 3px 3px 3px 3px lightblue;
 }
 
 #homediv1{
@@ -41,7 +60,14 @@
     grid-template-columns: 1fr 3fr;
 }
 #homeimg{
-   width: 35vw;
+   width: 40vw;
+    transition: width 1s;
+}
+
+#homeimg:hover{
+    width: 43vw;
+
+
 }
 
 #homediv2{
@@ -49,6 +75,7 @@
     padding: 5vh;
     text-align: center;
     font-family: "Comic Sans MS";
+
 
 }
 
@@ -71,19 +98,44 @@
     box-shadow: black;
    border: beige;
     margin: 5px;
+    transition: width 1s;
+
+
+}
+#btnhomesession:hover{
+
+    background-color: #0303c4;
+    cursor: pointer;
+    width: 135px;
+    height: 40px;
+    box-shadow: 5px 5px 5px 5px lightblue;
 
 }
 
 #homeseicon{
     margin: 20px;
+    transition: width 1s;
 }
+svg:hover{
+    /*width: 20px;*/
+    background-color: #f8f8f8;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 5px 2px 2px black;
+
+}
+
 svg{
     margin: 10px;
 }
 
 #about2{
-    width: 70vh;
-    margin:20px
+    width: 68vh;
+    margin:20px;
+    transition: width 1s;
+}
+#about2:hover{
+    width: 55vh;
 }
 #divAbout{
     display: grid;
@@ -101,12 +153,17 @@ svg{
     border: #0404c7 solid 2px;
     margin-left: 50px;
     margin-right: 25px;
-    padding: 20px;
+    padding: 10px;
     display: grid;
     grid-template-columns: 0.1fr 0.5fr 3fr;
 
 }
 
+#card:hover{
+    box-shadow: 20px 5px 5px lightblue;
+    /*width: 86%;*/
+    /*height: 100%;*/
+}
 .aboutLi{
     margin: 10px;
     list-style-type: none;
@@ -121,8 +178,13 @@ svg{
     cursor: pointer;
     width: 120px;
     height: 30px;
+    transition: width 1s;
 }
-
+#btnCV:hover{
+    width: 130px;
+    height: 35px ;
+    box-shadow: 5px 3px 3px 2px lightblue;
+}
 .head{
     text-align: center ;
     font-size: 45px ;
@@ -151,6 +213,14 @@ svg{
     padding: 26px;
     text-align: center;
     font-family: "Comic Sans MS";
+    transition: width 1s;
+}
+
+.divEdulast:hover{
+
+    width: 300px;
+    text-shadow: 8px 3px lightblue;
+
 }
 #eduImg{
     justify-content: center;
@@ -158,7 +228,11 @@ svg{
 }
 #eduImgI{
     width: 400px;
+    transition: width 1s;
 
+}
+#eduImgI:hover{
+    width: 420px;
 }
 #skills{
     font-family: "Comic Sans MS";
@@ -168,6 +242,24 @@ svg{
 #skilmaindiv{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+
+}
+#skilmaindiv>div{
+    background-color: lightcyan;
+    margin: 20px;
+    border-radius: 20px;
+    /*transition: box-shadow 2s;*/
+   width: 330px;
+    transition:width 2s;
+
+
+}
+#skilmaindiv>div:hover{
+    box-shadow: 15px 10px darkblue;
+    width: 250px;
+
+
+
 }
 
 #contactdivmain{
@@ -224,10 +316,9 @@ border: white;
 
 #footer{
     width: 100%;
-    height: 100%;
     background-color: blue;
     margin: 0;
-    padding: 10px;
+    padding: 1vh;
     text-align: center;
     color: white;
 }
